@@ -1,21 +1,25 @@
-<<<<<<< HEAD
-# React + Vite
+#To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and interactive To-Do application built with React and Tailwind CSS to manage daily tasks efficiently. Users can create, edit, delete, and filter tasks, with task data persisted in the browser using Local Storage.
 
-Currently, two official plugins are available:
+#Features
+Add Tasks — Create new tasks easily.
+Edit Tasks — Update existing task details.
+Delete Tasks — Remove tasks you no longer need.
+Filter Tasks — View all tasks, pending tasks, or completed tasks.
+Mark as Completed — Track finished tasks.
+Local Storage — Automatically save tasks in the browser so they remain available after refreshing the page.
+Responsive UI — Clean interface styled with Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+#Tech Stack
+React.js — Component-based UI development
+JavaScript (ES6+) — Application logic
+Tailwind CSS — Utility-first styling
+HTML5 — Application structure
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# TO-DO-IN-REACT
-To-Do List app built with React and Tailwind CSS for practice.
->>>>>>> 6adf25fb1c7f23ea9252e0a0173d057d11881729
+£How It Works
+Add tasks to your to-do list.
+Edit task details whenever needed.
+Mark tasks as completed when finished.
+Filter tasks by All, Pending, or Completed.
+Refresh the browser without losing saved tasks, thanks to Local Storage.
